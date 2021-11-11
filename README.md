@@ -1,3 +1,3 @@
-# MY PORTFOLIO
+# KATE WESTBROOK PORTFOLIO
 
 This is my portfolio site!

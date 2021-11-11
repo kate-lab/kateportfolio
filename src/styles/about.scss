@@ -1,0 +1,29 @@
+
+.about{
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 850px) {
+  .about-links{
+    .about-container{
+      flex-direction: column;
+      .card{
+        width: 400px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .about-links{
+    .about-container{
+      flex-direction: column;
+      .card{
+        width: 240px;
+      }
+    }
+  }
+
+}

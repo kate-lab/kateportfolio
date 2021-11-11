@@ -1,0 +1,128 @@
+.job-ed-text{
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  .job{
+    width: 60%;
+    .job-holder{
+      padding-right: 30px;
+      border-right: 3px #86a282 solid;
+    }
+  
+  }
+
+  .education{
+    width: 35%;  
+  }
+  .page-title{
+    text-align: left;
+  }
+}
+.linkedin-link-cv{
+  padding-top: 3px;
+  padding-bottom: 2px;
+}
+
+.job-title, .ed-title{
+  font-weight: bold;
+  div{
+    margin-right: 10px;
+  }
+}
+
+.skills-container{
+  display: flex;
+  .skill-holder{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .tech-holder{
+    width: 60%;
+  }
+  .soft-holder{
+    width: 40%;
+  }
+  
+  .skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+    
+    li{
+      list-style-type: none;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 120px;
+      height: 70px;
+      font-size: 16px;
+      padding: 4px 8px;
+      margin: 5px;
+      color: black;
+      .tech-icon{
+        max-height: 50px;
+        max-width: 100px;
+      }
+    }
+    &.tech li{
+      margin: 5px;
+      width: 110px;
+      padding: 4px 0;
+    }
+    &.tech li:hover{
+      content: attr(title); 
+    }
+    &.soft li{
+      background-color: #eeaea1;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .job-ed-text{
+    display: flex;
+    flex-direction: column;
+
+    .job{
+      width: 100%;
+      .job-holder{
+        padding-right: 0;
+        border-right: none;
+      }
+    }
+    .education{
+      width: 100%
+    }
+    .education-div{
+      flex-direction: column;
+      width: 100%;
+      .ed-title, p{
+        width: 100%;
+      }
+    }
+    .page-title{
+      text-align: center;
+    }
+  }
+
+  .skills{
+    li{
+    width: 170px;
+    }
+  }
+  
+}
+
+@media screen and (max-width: 750px) {
+  .skills-container{
+    flex-direction: column;
+    .skill-holder{
+      width: 100%;
+    }
+  }
+
+}

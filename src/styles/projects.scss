@@ -1,0 +1,38 @@
+.project-container{
+  text-align: center;
+  padding: 0 20px;
+  margin-bottom: 40px;
+  border: 3px solid #9db19a;
+  max-width: 800px;
+  img{
+    width: 100%;
+  }
+  .project-links{
+    width: 300px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    .demo{
+      font-size: 16px;
+      padding: 8px;
+      margin: 0;
+    }
+  }
+  .project-title{
+    font-style: italic;
+    font-size: 22px;
+    background: #9db19a;
+    color: black;
+    padding: 30px;
+    margin: -2px -22px 20px -22px;
+  }
+  .project-description{
+    background: #9db19a;
+    color: black;
+    padding: 30px;
+    margin: 20px -22px -2px -22px;
+    a:hover{
+      color: #5C7457;
+    }
+  }
+}

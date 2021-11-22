@@ -5,9 +5,10 @@
   min-width: 290px;
 }
 body{
+  font-family: 'Darker Grotesque', sans-serif;
   margin: 0;
-  font-family: 'Libre Caslon Text', serif;
   background-color: #FDF0DD;
+  z-index: -4;
   a{
     text-decoration: none;
     font-style: italic;
@@ -17,9 +18,11 @@ body{
     color: #86a282;
   }
   p{
-    font-size: 16px;
+    font-size: 20px;
+    margin: 5px auto;
   }
   .quote, .page-title{
+    font-family: 'Libre Caslon Text', serif;
     font-style: italic;
     font-size: 28px;
     text-align: center;
@@ -37,6 +40,7 @@ hr{
   margin-bottom: 150px !important;
 }
 .card{
+  font-family: 'Libre Caslon Text', serif;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -68,7 +72,7 @@ hr{
 .working-inline {
   padding-top: 150px;
   margin-top: -150px;
-  transform: translateZ(10);
+  z-index: -5;
 }
 .wholepage-container-center{
   margin: 0 15%;
@@ -95,7 +99,7 @@ hr{
     margin: 30px 0 20px !important;
   }
   p{
-    font-size: 14px !important;
+    font-size: 18px !important;
   }
   .working-inline {
     padding-top: 130px;

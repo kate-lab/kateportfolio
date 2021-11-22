@@ -56,12 +56,12 @@ const About = () => {
               </div> */}
         </div>
       </div>
+      <div className="working-inline" id="skills"></div>
+      <Skills />
       <div className="working-inline" id="projects"></div>
       <Projects />
       <div className="working-inline" id="cv"></div>
       <Cv />
-      <div className="working-inline" id="skills"></div>
-      <Skills />
       <Contact />
     </>
   )

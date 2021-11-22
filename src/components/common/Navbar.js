@@ -17,11 +17,11 @@ const Navbar = () => {
       </div>
       <div className="links wide-container">
         <div className="link-inside">
+          <HashLink to="/#skills" className="card">Skills</HashLink>
           <HashLink to="/#projects" className="card">Projects</HashLink>
-          <HashLink to="/#cv" className="card">CV</HashLink>
         </div>
         <div className="link-inside">
-          <HashLink to="/#skills" className="card">Skills</HashLink>
+          <HashLink to="/#cv" className="card">CV</HashLink>
           <HashLink to="/#contact" className="card">Contact</HashLink>
         </div>
       </div>

@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div className="page">
       <div className="container">
-        <h3 className="page-title">My Projects</h3>
+        <h3 className="page-title">My Code Projects</h3>
         <div className="projects">
 
           <div className="project-container">
@@ -14,7 +14,7 @@ const Projects = () => {
             <div className="project-description">
               <p>A vibrant and engaging content management application for teachers to build up a library of lesson plans to share with their students and find inspiration from other teachers. This full stack application was built using Django/PostgreSQL back end and React front end, and was an opportunity for me to develop C.R.U.D. operations and one to one/one to many relationships within my database. It is mobile responsive to support teachers on the go and students working from limited hardware.</p>
               <div className="project-links">
-                <a href="http://class-content-creator.herokuapp.com/"  rel="noreferrer" target="_blank" className="card demo">explore demo</a>
+                <a href="http://my-class-content-creator.herokuapp.com/"  rel="noreferrer" target="_blank" className="card demo">explore demo</a>
                 <a href="https://github.com/kate-lab/class"  rel="noreferrer" target="_blank" className="card demo">see code</a>
               </div>
             </div>
@@ -51,7 +51,7 @@ const Projects = () => {
             <img src="https://res.cloudinary.com/dysirhng8/image/upload/v1635969102/portfolio/1630696639707_qja4ex.jpg" alt="Bubble Pop"></img>
             
             <div className="project-description">
-              <p>A bubbly fun version of space invaders built in vanilla Javascript, with playable character choices and score accumulator, built using a grid system.</p>
+              <p>A bubbly fun version of space invaders built in Vanilla JavaScript, with playable character choices and score accumulator, built using a grid system.</p>
               <div className="project-links">
                 <a href="https://kate-lab.github.io/Project-1/"  rel="noreferrer" target="_blank" className="card demo">explore demo</a>
                 <a href="https://github.com/kate-lab/Project-1"  rel="noreferrer" target="_blank" className="card demo">see code</a>

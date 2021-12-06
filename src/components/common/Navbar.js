@@ -14,6 +14,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="home-link wide-container">
         <HashLink to="/#about">KATE WESTBROOK</HashLink>
+        <p>Junior Software Engineer / Learning Specialist</p>
       </div>
       <div className="links wide-container">
         <div className="link-inside">

@@ -15,7 +15,7 @@ const Projects = () => {
               <p>A vibrant and engaging content management application for teachers to build up a library of lesson plans to share with their students and find inspiration from other teachers. This full stack application was built using Django/PostgreSQL back end and React front end, and was an opportunity for me to develop C.R.U.D. operations and one to one/one to many relationships within my database. It is mobile responsive to support teachers on the go and students working from limited hardware.</p>
               <div className="project-links">
                 <a href="http://my-class-content-creator.herokuapp.com/"  rel="noreferrer" target="_blank" className="card demo">explore demo</a>
-                <a href="https://github.com/kate-lab/class"  rel="noreferrer" target="_blank" className="card demo">see code</a>
+                <a href="https://github.com/kate-lab/My-Class"  rel="noreferrer" target="_blank" className="card demo">see code</a>
               </div>
             </div>
           </div>
@@ -28,7 +28,7 @@ const Projects = () => {
               <p>A recipe indexing and sharing website that helps users calculate the environmental impact of their recipes based on the ingredients included in them. This full stack application was built using MongoDB, Express, Node.js and React, and was a great opportunity to build my understanding of relationships within MongoDB and using Bootstrap for layout and React Select to filter recipes. </p>
               <div className="project-links">
                 <a href="https://greenplate.herokuapp.com/"  rel="noreferrer" target="_blank" className="card demo">explore demo</a>
-                <a href="https://github.com/kate-lab/project-3"  rel="noreferrer" target="_blank" className="card demo">see code</a>
+                <a href="https://github.com/kate-lab/How-Green-Is-Your-Plate"  rel="noreferrer" target="_blank" className="card demo">see code</a>
               </div>
             </div>
           </div>
@@ -53,8 +53,8 @@ const Projects = () => {
             <div className="project-description">
               <p>A bubbly fun version of space invaders built in Vanilla JavaScript, with playable character choices and score accumulator, built using a grid system.</p>
               <div className="project-links">
-                <a href="https://kate-lab.github.io/Project-1/"  rel="noreferrer" target="_blank" className="card demo">explore demo</a>
-                <a href="https://github.com/kate-lab/Project-1"  rel="noreferrer" target="_blank" className="card demo">see code</a>
+                <a href="https://kate-lab.github.io/Bubble-Pop/"  rel="noreferrer" target="_blank" className="card demo">explore demo</a>
+                <a href="https://github.com/kate-lab/Bubble-Pop"  rel="noreferrer" target="_blank" className="card demo">see code</a>
               </div>
             </div>
           </div>

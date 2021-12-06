@@ -15,6 +15,7 @@
     font-family: 'Darker Grotesque', sans-serif !important;
     font-weight: 300;
     display: flex;
+    flex-direction: column;
     align-items: center;
     color: #FDF0DD;
     a{
@@ -22,6 +23,9 @@
     }
     a:hover{
       color: #973E28;
+    }
+    p{
+      margin: -10px auto 5px;
     }
   }
   .links{

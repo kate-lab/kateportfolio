@@ -21,7 +21,7 @@ const About = () => {
               <div className='title'>
                 <div className='border'>
                   <h1>KATE WESTBROOK</h1>
-                  <h2>Software Engineer / Learning Specialist</h2>
+                  <h2>Junior Software Engineer / Learning Specialist</h2>
                   <button onClick={hideSplash} className='splash-button'>Enter Site</button>
                 </div>
               </div>
